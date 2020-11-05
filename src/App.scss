@@ -1,0 +1,94 @@
+@import './tokens/tokens';
+
+@font-face {
+  font-family: $rubik-regular;
+  src: url(./fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: $montserrat-bold;
+  src: url(./fonts/Montserrat-Bold.ttf);
+}
+
+.form-container {
+  width: 500px;
+  margin: $spacing-xm auto;
+  padding: $spacing-xxm;
+  color: $primaria-aço-A300;
+  border: 1px solid $primaria-aço-100;
+  border-radius: $border-radius-s;
+  background-color: $primaria-aço-100;
+  font-size: $font-size-6;
+  box-shadow: $shadow-regular;
+  font-family: $rubik-regular;
+}
+
+.form-input {
+  margin: $spacing-s 0px
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.form-submit .loading {
+  cursor: none;
+}
+
+label {
+  font-family: $montserrat-bold;
+  font-size: $font-size-5;
+}
+
+button,
+input {
+  padding: $spacing-xs;
+  font-size: $font-size-7;
+}
+
+input[type="text"] {
+  width: -webkit-fill-available;
+  margin-top: $spacing-xxs;
+}
+
+input[type="submit"] {
+  background-color: $primaria-localiza-600;
+  border-radius: $border-radius-s;
+  padding: $spacing-s;
+  color: $primaria-aço-100;
+  margin-top: $spacing-xs;
+
+  cursor: pointer;
+  border: none;
+  min-width: 120px;
+}
+
+button,
+input[type="submit"]:hover {
+  background-color: $primaria-localiza-800;
+}
+
+.tokens-container {
+  width: 100%;
+  margin: auto;
+}
+
+.tokens {
+  margin: $spacing-xm auto;
+  color: $primaria-aço-A300;
+  font-size: $font-size-7;
+  background-color: $primaria-aço-100;
+  border-radius: $border-radius-s;
+  padding: $spacing-l;
+  font-family: $rubik-regular;
+}
+
+.button-submit {
+  background-color: $primaria-localiza-600;
+  margin-bottom: $spacing-s;
+  border-radius: $border-radius-s;
+  color: $primaria-aço-100;
+  padding: $spacing-s;
+  border: none;
+  cursor: pointer;
+}

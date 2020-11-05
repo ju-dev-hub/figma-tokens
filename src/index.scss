@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgba(0, 112, 58, 1.00);
+  background-image: url('./img/estrada-verde.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: right;
+  background-position-y: top;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
